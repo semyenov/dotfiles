@@ -1,0 +1,3 @@
+[submodule "/var/home/semyenov/.config/nvim"]
+	path = /var/home/semyenov/.config/nvim
+	url = https://github.com/AstroNvim/AstroNvim
