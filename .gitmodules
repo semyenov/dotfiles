@@ -4,6 +4,3 @@
 [submodule ".config/nvim/lua/user"]
 	path = .config/nvim/lua/user
 	url = https://github.com/semyenov/astronvim_config
-[submodule ".config/nvim/lua/.config/nvim/lua/user"]
-	path = .config/nvim/lua/.config/nvim/lua/user
-	url = https://github.com/semyenov/astronvim_config
