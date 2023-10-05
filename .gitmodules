@@ -1,6 +1,6 @@
-[submodule "/var/home/semyenov/.config/nvim"]
+[submodule "nvim"]
 	path = .config/nvim
 	url = https://github.com/AstroNvim/AstroNvim
-[submodule "/var/home/semyenov/.nvm"]
+[submodule "nvm"]
 	path = .nvm
 	url = https://github.com/nvm-sh/nvm.git
