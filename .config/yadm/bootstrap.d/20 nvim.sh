@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-echo "- Installing AstroNvim"
+echo "↳ Installing AstroNvim"
 
 if [[ ! -d "$HOME/.config/nvim" ]]; then
     echo "Cloning AstroNvim into ~/.config/nvim"
