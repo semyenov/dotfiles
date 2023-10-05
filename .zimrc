@@ -64,4 +64,4 @@ zmodule ohmyzsh/ohmyzsh --root plugins/fzf
 zmodule ohmyzsh/ohmyzsh --root plugins/sudo
 zmodule ohmyzsh/ohmyzsh --root plugins/aliases
 zmodule ohmyzsh/ohmyzsh --root plugins/extract
-
+zmodule ohmyzsh/ohmyzsh --root plugins/nvm
