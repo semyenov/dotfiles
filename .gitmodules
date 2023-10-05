@@ -2,5 +2,5 @@
 	path = .config/nvim
 	url = https://github.com/AstroNvim/AstroNvim
 [submodule "/var/home/semyenov/.nvm"]
-	path = /var/home/semyenov/.nvm
+	path = .nvm
 	url = https://github.com/nvm-sh/nvm.git
