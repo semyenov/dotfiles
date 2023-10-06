@@ -1,8 +1,4 @@
 # Start configuration added by Zim install {{{
-#
-# User configuration sourced by interactive shells
-#
-
 # -----------------
 # Zsh configuration
 # -----------------
@@ -128,3 +124,21 @@ for key ('j') bindkey -M vicmd ${key} history-substring-search-down
 unset key
 # }}} End configuration added by Zim install
 
+# Start user configuration {{{
+# ------------------
+# User configuration
+# ------------------
+
+#
+# aliases
+#
+
+alias ls='exa --icons'
+alias ll='ls -lh'
+alias l='ll -a'
+alias bat='batcat'
+alias pv='cd ../"$(ls -F --no-icons .. | grep -B1 -xF "${PWD##*/}/" | head -n 1)"'
+alias nt='cd ../"$(ls -F --no-icons .. | grep -A1 -xF "${PWD##*/}/" | tail -n 1)"'
+alias fh='feh -FZr --on-last-slide hold -A "find \"$PWD\" -name %N >> ~/Favorite/list"'
+alias s="kitty +kitten ssh"
+# }}} End user configuration

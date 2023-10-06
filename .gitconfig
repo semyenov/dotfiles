@@ -1,6 +1,7 @@
+[core]
+	editor = nvim
+[user]
+	email = semyenov@hotmail.com
+	name = Alexander Semyenov
 [init]
 	defaultBranch = master
-[user]
-	user = Alexander Semyenov
-	email = semyenov@hotmail.com
-	name = Alexander

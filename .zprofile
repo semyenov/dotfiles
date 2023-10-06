@@ -2,6 +2,9 @@
 # for ssh logins, install and configure the libpam-umask package.
 #umask 022
 
+export EDITOR=nvim
+export VISUAL=nvim
+
 if [ -n "$ZSH_VERSION" ]; then
     # include .zshrc if it exists
     if [ -f "$HOME/.zshrc" ]; then
